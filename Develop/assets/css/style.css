@@ -1,13 +1,26 @@
+/* Universal selector apply styles to entire site */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Elemental selector apply style to the element listed */
 body {
     background-color: #d9dcd6;
 }
 
+/* Moved element selectors above class selectors */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Class selector apply style to class listed */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,15 +54,6 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
 .hero {
     height: 800px;
     width: 100%;
@@ -57,6 +61,13 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* Moved content class above float class to match HTML logical structure */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .float-left {
@@ -67,12 +78,6 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 .benefits {
