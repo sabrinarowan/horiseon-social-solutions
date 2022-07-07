@@ -7,7 +7,7 @@ This project was designed to help users optimize search engines, mange online re
 To install the project, a starter code was provided. Once all aspects were updated, the project was published through GitHub.
 
 ## Usage
-To help users optomize web experience 
+Help users optomize web experience.
 
 ![alt text](assets/images/screenshot.png)
 
