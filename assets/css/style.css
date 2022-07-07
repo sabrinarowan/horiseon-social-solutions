@@ -1,16 +1,15 @@
-/* Universal selector apply styles to entire site */
+/* Universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* Elemental selector apply style to the element listed */
+/* Element selector for body */
 body {
     background-color: #d9dcd6;
 }
 
-/* Moved element selectors above class selectors */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -20,7 +19,7 @@ p {
     font-size: 16px;
 }
 
-/* Class selector apply style to class listed */
+/* Class selector for header section*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -54,6 +53,7 @@ p {
     margin-left: 25px;
 }
 
+/* Class selector for hero section */
 .hero {
     height: 800px;
     width: 100%;
@@ -63,14 +63,13 @@ p {
     background-position: center;
 }
 
-/* Moved content class above float class to match HTML logic */
+/* Class selector for content section */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Consolidated content div */
 .content div {
     margin-bottom: 20px;
     padding: 50px;
@@ -99,6 +98,7 @@ p {
     margin-left: 25px;
 }
 
+/* Class selector for benefits section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -110,7 +110,6 @@ p {
     background-color: #2589bd;
 }
 
-/* Consolidated benefits div */
 .benefits div {
     margin-bottom: 32px;
     color: #ffffff;
@@ -127,6 +126,7 @@ p {
     max-width: 150px;
 }
 
+/* Element selector for footer */
 footer {
     padding: 30px;
     clear: both;
