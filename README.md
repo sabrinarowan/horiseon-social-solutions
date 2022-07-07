@@ -8,6 +8,4 @@ A website that offers web building, repuatation management and social media mark
 * CSS
 
 ## Website
-
-
-## Screen Shot
+https://sabrinarowan.github.io/horiseon-social-solutions/
