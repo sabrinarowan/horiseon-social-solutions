@@ -70,8 +70,8 @@ p {
     margin-left: 20px;
 }
 
-/* Changed class names to remove duplicate CSS. Kept old classes for potential future styling. Moved above benefits section*/
-.content-detail {
+/* Consolidated content div */
+.content div {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -80,11 +80,11 @@ p {
     color: #ffffff;
 }
 
-.content-detail img {
+.content div img {
     max-height: 200px;
 }
 
-.content-detail h2 {
+.content div  h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -110,18 +110,18 @@ p {
     background-color: #2589bd;
 }
 
-/* Changed class names to remove duplicate CSS. Kept old classes for potential future styling*/
-.benefit-detail {
+/* Consolidated benefits div */
+.benefits div {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-detail h3 {
+.benefits div h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-detail img {
+.benefits div img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
